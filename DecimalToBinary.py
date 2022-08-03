@@ -1,4 +1,4 @@
-# step1 - Recursive case
+# step1 - Recursive case - the flow
 # 1. divide the number by 2
 # 2. get the integer quotient for the next iteration
 # 3. get the remainder for the binary digit
@@ -10,6 +10,10 @@
 # 3/2               1          1
 # 1/2               0          1
 # result = 13 in binary is 1101
+# binary number written from behind to front
+# the flow is - n%2 + 10*f(n/2)
+# Base case - n = 0
+# unintentional case - number must be integer
 
 def decTobin(n):
     assert int(n) == n, "Number must be integer only."
