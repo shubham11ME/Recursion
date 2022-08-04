@@ -1,7 +1,7 @@
 # Recursion
 Find the solution of problem related to Recursion.
 
-In this repo I'' share the problem and solution related to Recursion.
+In this repo I''ll share the problem and solution related to Recursion.
 
 --> What is Recursion?
 -- A way of solving a problem by having a function calling itself.
